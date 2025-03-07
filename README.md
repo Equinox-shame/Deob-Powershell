@@ -17,6 +17,8 @@
 
 - 增加额外关键字、特殊变量字典信息，便于替换部分变量名大小写混合
 
+- 更为直观的 log 信息
+
 - Data 文件夹下为部分PS1代码用于辅助测试
 
   > 代码来源：[APT的思考: PowerShell命令混淆高级对抗-腾讯云开发者社区-腾讯云](https://cloud.tencent.com/developer/article/1639161)
