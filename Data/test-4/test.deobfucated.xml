@@ -1,0 +1,88 @@
+<ScriptBlockAst>
+  <UsingStatements />
+  <NamedBlockAst>
+    <Statements>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandExpressionAst>
+            <ParenExpressionAst StaticType="System.Object">
+              <CommandAst>
+                    <CommandElements>
+                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">New-Object</StringConstantExpressionAst>
+                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">IO.Compression.DeflateStream</StringConstantExpressionAst>
+                      <ConvertExpressionAst StaticType="System.IO.MemoryStream">
+                                <TypeConstraintAst TypeName="System.IO.MemoryStream" />
+                                <MemberExpressionAst Static="True" StaticType="System.Object">
+                                  <TypeExpressionAst TypeName="Convert" StaticType="type" />
+                                  <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">FromBase64String</StringConstantExpressionAst>
+                                </MemberExpressionAst>
+                                <TypeConstraintAst TypeName="IO.MemoryStream" />
+                              </ConvertExpressionAst>
+                              <ArrayLiteralAst StaticType="System.Object[]">
+                        <Elements>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">c08t0Q0oyk9OLS5W0PVLzE1VyMsvSS1ITFGoUUjLL0pNTM7QzU/KSk0uqVaJ1/POzMnR0KwFAA==</StringConstantExpressionAst>
+                                  <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">[System.IO.Compression.CompressionMode]::Decompress</StringConstantExpressionAst>
+                        </Elements>
+                      </ArrayLiteralAst>
+                    </CommandElements>
+                    </CommandAst>
+                </ParenExpressionAst>
+            </CommandExpressionAst>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ForEach-Object</StringConstantExpressionAst>
+              <ScriptBlockExpressionAst StaticType="scriptblock">
+                <ScriptBlockAst>
+                  <UsingStatements />
+                  <NamedBlockAst>
+                    <Statements>
+                      <CommandAst>
+                            <CommandElements>
+                              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">New-Object</StringConstantExpressionAst>
+                              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">System.IO.StreamReader</StringConstantExpressionAst>
+                              <ArrayLiteralAst StaticType="System.Object[]">
+                                        <Elements>
+                                          <VariableExpressionAst VariablePath="_" StaticType="System.Object" />
+                                          <MemberExpressionAst Static="True" StaticType="System.Object">
+                                            <TypeExpressionAst TypeName="System.Text.Encoding" StaticType="type" />
+                                            <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ASCII</StringConstantExpressionAst>
+                                          </MemberExpressionAst>
+                                        </Elements>
+                                      </ArrayLiteralAst>
+                                      </CommandElements>
+                            </CommandAst>
+                        </Statements>
+                  </NamedBlockAst>
+                </ScriptBlockAst>
+              </ScriptBlockExpressionAst>
+            </CommandElements>
+            </CommandAst>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ForEach-Object</StringConstantExpressionAst>
+              <ScriptBlockExpressionAst StaticType="scriptblock">
+                <ScriptBlockAst>
+                  <UsingStatements />
+                  <NamedBlockAst>
+                    <Statements>
+                      <CommandExpressionAst>
+                            <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                              <VariableExpressionAst VariablePath="_" StaticType="System.Object" />
+                              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ReadToEnd</StringConstantExpressionAst>
+                            </InvokeMemberExpressionAst>
+                            </CommandExpressionAst>
+                        </Statements>
+                  </NamedBlockAst>
+                </ScriptBlockAst>
+              </ScriptBlockExpressionAst>
+            </CommandElements>
+            </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+      <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Invoke-Expression</StringConstantExpressionAst></CommandElements>
+            </CommandAst>
+        </Statements>
+  </NamedBlockAst>
+</ScriptBlockAst>

