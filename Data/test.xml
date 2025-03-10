@@ -10,113 +10,257 @@
             <ParenExpressionAst StaticType="System.Object">
               <PipelineAst>
                 <PipelineElements>
-                  <CommandAst>
-                    <CommandElements>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">NEw-oBJeCT</StringConstantExpressionAst>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">iO.COmPreSSioN.dEFLAtEstReam</StringConstantExpressionAst>
-                      <ParenExpressionAst StaticType="System.Object">
-                        <PipelineAst>
-                          <PipelineElements>
-                            <CommandExpressionAst>
-                              <ArrayLiteralAst StaticType="System.Object[]">
-                                <Elements>
-                                  <ConvertExpressionAst StaticType="System.IO.MemoryStream">
-                                    <TypeConstraintAst TypeName="io.MeMOrYstReAM" />
-                                    <InvokeMemberExpressionAst Static="True" StaticType="System.Object">
-                                      <Arguments>
-                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">c08t0Q0oyk9OLS5W0PVLzE1VyMsvSS1ITFGoUUjLL0pNTM7QzU/KSk0uqVaJ1/POzMnR0KwFAA==</StringConstantExpressionAst>
-                                      </Arguments>
-                                      <TypeExpressionAst TypeName="COnvErt" StaticType="type" />
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">frOmbaSe64StRInG</StringConstantExpressionAst>
-                                    </InvokeMemberExpressionAst>
-                                    <TypeConstraintAst TypeName="io.MeMOrYstReAM" />
-                                  </ConvertExpressionAst>
-                                  <MemberExpressionAst Static="True" StaticType="System.Object">
-                                    <TypeExpressionAst TypeName="SYSteM.iO.comPRessiOn.ComprESSionmODe" StaticType="type" />
-                                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">deCOmPResS</StringConstantExpressionAst>
-                                  </MemberExpressionAst>
-                                </Elements>
-                              </ArrayLiteralAst>
-                              <Redirections />
-                            </CommandExpressionAst>
-                          </PipelineElements>
-                        </PipelineAst>
-                      </ParenExpressionAst>
-                    </CommandElements>
-                    <Redirections />
-                  </CommandAst>
-                  <CommandAst>
-                    <CommandElements>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ForeacH-obJEcT</StringConstantExpressionAst>
-                      <ScriptBlockExpressionAst StaticType="scriptblock">
-                        <ScriptBlockAst>
-                          <Attributes />
-                          <UsingStatements />
-                          <NamedBlockAst>
-                            <Statements>
-                              <PipelineAst>
-                                <PipelineElements>
-                                  <CommandAst>
-                                    <CommandElements>
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">NEw-oBJeCT</StringConstantExpressionAst>
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">SYStem.io.stReAMREADer</StringConstantExpressionAst>
-                                      <ParenExpressionAst StaticType="System.Object">
-                                        <PipelineAst>
-                                          <PipelineElements>
-                                            <CommandExpressionAst>
-                                              <ArrayLiteralAst StaticType="System.Object[]">
-                                                <Elements>
-                                                  <VariableExpressionAst VariablePath="_" StaticType="System.Object" />
-                                                  <MemberExpressionAst Static="True" StaticType="System.Object">
-                                                    <TypeExpressionAst TypeName="System.TExT.encoDing" StaticType="type" />
-                                                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">AsCii</StringConstantExpressionAst>
-                                                  </MemberExpressionAst>
-                                                </Elements>
-                                              </ArrayLiteralAst>
-                                              <Redirections />
-                                            </CommandExpressionAst>
-                                          </PipelineElements>
-                                        </PipelineAst>
-                                      </ParenExpressionAst>
-                                    </CommandElements>
-                                    <Redirections />
-                                  </CommandAst>
-                                </PipelineElements>
-                              </PipelineAst>
-                            </Statements>
-                          </NamedBlockAst>
-                        </ScriptBlockAst>
-                      </ScriptBlockExpressionAst>
-                    </CommandElements>
-                    <Redirections />
-                  </CommandAst>
-                  <CommandAst>
-                    <CommandElements>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ForEaCH-ObjeCT</StringConstantExpressionAst>
-                      <ScriptBlockExpressionAst StaticType="scriptblock">
-                        <ScriptBlockAst>
-                          <Attributes />
-                          <UsingStatements />
-                          <NamedBlockAst>
-                            <Statements>
+                  <CommandExpressionAst>
+                    <BinaryExpressionAst Operator="Ireplace" StaticType="System.Object">
+                      <BinaryExpressionAst Operator="Creplace" StaticType="System.Object">
+                        <BinaryExpressionAst Operator="Creplace" StaticType="System.Object">
+                          <BinaryExpressionAst Operator="Ireplace" StaticType="System.Object">
+                            <ParenExpressionAst StaticType="System.Object">
                               <PipelineAst>
                                 <PipelineElements>
                                   <CommandExpressionAst>
-                                    <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
-                                      <VariableExpressionAst VariablePath="_" StaticType="System.Object" />
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ReADToenD</StringConstantExpressionAst>
-                                    </InvokeMemberExpressionAst>
+                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                            <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                              <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                  <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                            <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                              <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                  <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                            <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                              <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                  <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                            <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                              <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                  <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                            <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                              <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                  <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                            <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                              <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                  <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                    <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                          <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                                                                                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">try {Import-Module znOPS</StringConstantExpressionAst>
+                                                                                                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">Sc</StringConstantExpressionAst>
+                                                                                                                                          </BinaryExpressionAst>
+                                                                                                                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">rip</StringConstantExpressionAst>
+                                                                                                                                        </BinaryExpressionAst>
+                                                                                                                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">tRo</StringConstantExpressionAst>
+                                                                                                                                      </BinaryExpressionAst>
+                                                                                                                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">otWsg.</StringConstantExpressionAst>
+                                                                                                                                    </BinaryExpressionAst>
+                                                                                                                                    <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">.Wsg..W</StringConstantExpressionAst>
+                                                                                                                                  </BinaryExpressionAst>
+                                                                                                                                  <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">sgIm</StringConstantExpressionAst>
+                                                                                                                                </BinaryExpressionAst>
+                                                                                                                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">portExce</StringConstantExpressionAst>
+                                                                                                                              </BinaryExpressionAst>
+                                                                                                                              <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">l.psd1} </StringConstantExpressionAst>
+                                                                                                                            </BinaryExpressionAst>
+                                                                                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">catc</StringConstantExpressionAst>
+                                                                                                                          </BinaryExpressionAst>
+                                                                                                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">h </StringConstantExpressionAst>
+                                                                                                                        </BinaryExpressionAst>
+                                                                                                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">{</StringConstantExpressionAst>
+                                                                                                                      </BinaryExpressionAst>
+                                                                                                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">throw ;(E6z</StringConstantExpressionAst>
+                                                                                                                    </BinaryExpressionAst>
+                                                                                                                    <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ip:37.24</StringConstantExpressionAst>
+                                                                                                                  </BinaryExpressionAst>
+                                                                                                                  <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">7.149.142E6z) eJ</StringConstantExpressionAst>
+                                                                                                                </BinaryExpressionAst>
+                                                                                                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">A </StringConstantExpressionAst>
+                                                                                                              </BinaryExpressionAst>
+                                                                                                              <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string"> </StringConstantExpressionAst>
+                                                                                                            </BinaryExpressionAst>
+                                                                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">oUT-</StringConstantExpressionAst>
+                                                                                                          </BinaryExpressionAst>
+                                                                                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">nu</StringConstantExpressionAst>
+                                                                                                        </BinaryExpressionAst>
+                                                                                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">LL retu</StringConstantExpressionAst>
+                                                                                                      </BinaryExpressionAst>
+                                                                                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">rn}
+
+. znOPSS</StringConstantExpressionAst>
+                                                                                                    </BinaryExpressionAst>
+                                                                                                    <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">crip</StringConstantExpressionAst>
+                                                                                                  </BinaryExpressionAst>
+                                                                                                  <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">tRoo</StringConstantExpressionAst>
+                                                                                                </BinaryExpressionAst>
+                                                                                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">tWs</StringConstantExpressionAst>
+                                                                                              </BinaryExpressionAst>
+                                                                                              <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">gTes</StringConstantExpressionAst>
+                                                                                            </BinaryExpressionAst>
+                                                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">tAPIR</StringConstantExpressionAst>
+                                                                                          </BinaryExpressionAst>
+                                                                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">eadX</StringConstantExpressionAst>
+                                                                                        </BinaryExpressionAst>
+                                                                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ls.ps1
+
+</StringConstantExpressionAst>
+                                                                                      </BinaryExpressionAst>
+                                                                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">T</StringConstantExpressionAst>
+                                                                                    </BinaryExpressionAst>
+                                                                                    <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">est-APIReadX</StringConstantExpressionAst>
+                                                                                  </BinaryExpressionAst>
+                                                                                  <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">l</StringConstantExpressionAst>
+                                                                                </BinaryExpressionAst>
+                                                                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">s zn</StringConstantExpressionAst>
+                                                                              </BinaryExpressionAst>
+                                                                              <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">OP</StringConstantExpressionAst>
+                                                                            </BinaryExpressionAst>
+                                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">S</StringConstantExpressionAst>
+                                                                          </BinaryExpressionAst>
+                                                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ScriptRootWsgte</StringConstantExpressionAst>
+                                                                        </BinaryExpressionAst>
+                                                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">s</StringConstantExpressionAst>
+                                                                      </BinaryExpressionAst>
+                                                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">tlis</StringConstantExpressionAst>
+                                                                    </BinaryExpressionAst>
+                                                                    <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">t</StringConstantExpressionAst>
+                                                                  </BinaryExpressionAst>
+                                                                  <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">.</StringConstantExpressionAst>
+                                                                </BinaryExpressionAst>
+                                                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">x</StringConstantExpressionAst>
+                                                              </BinaryExpressionAst>
+                                                              <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">lsx eJA Foreach-</StringConstantExpressionAst>
+                                                            </BinaryExpressionAst>
+                                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">Obj</StringConstantExpressionAst>
+                                                          </BinaryExpressionAst>
+                                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ec</StringConstantExpressionAst>
+                                                        </BinaryExpressionAst>
+                                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">t {
+    </StringConstantExpressionAst>
+                                                      </BinaryExpressionAst>
+                                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">Invo</StringConstantExpressionAst>
+                                                    </BinaryExpressionAst>
+                                                    <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ke-Pe</StringConstantExpressionAst>
+                                                  </BinaryExpressionAst>
+                                                  <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ster </StringConstantExpressionAst>
+                                                </BinaryExpressionAst>
+                                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">-Sc</StringConstantExpressionAst>
+                                              </BinaryExpressionAst>
+                                              <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ript z</StringConstantExpressionAst>
+                                            </BinaryExpressionAst>
+                                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">nO_.fullname</StringConstantExpressionAst>
+                                          </BinaryExpressionAst>
+                                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">  -PassThru -Sh</StringConstantExpressionAst>
+                                        </BinaryExpressionAst>
+                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">ow None</StringConstantExpressionAst>
+                                      </BinaryExpressionAst>
+                                      <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">
+}
+</StringConstantExpressionAst>
+                                    </BinaryExpressionAst>
                                     <Redirections />
                                   </CommandExpressionAst>
                                 </PipelineElements>
                               </PipelineAst>
-                            </Statements>
-                          </NamedBlockAst>
-                        </ScriptBlockAst>
-                      </ScriptBlockExpressionAst>
-                    </CommandElements>
+                            </ParenExpressionAst>
+                            <ArrayLiteralAst StaticType="System.Object[]">
+                              <Elements>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">znO</StringConstantExpressionAst>
+                                <ConvertExpressionAst StaticType="char">
+                                  <TypeConstraintAst TypeName="CHAr" />
+                                  <ConstantExpressionAst StaticType="int">36</ConstantExpressionAst>
+                                  <TypeConstraintAst TypeName="CHAr" />
+                                </ConvertExpressionAst>
+                              </Elements>
+                            </ArrayLiteralAst>
+                          </BinaryExpressionAst>
+                          <ArrayLiteralAst StaticType="System.Object[]">
+                            <Elements>
+                              <ParenExpressionAst StaticType="System.Object">
+                                <PipelineAst>
+                                  <PipelineElements>
+                                    <CommandExpressionAst>
+                                      <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                        <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
+                                          <ConvertExpressionAst StaticType="char">
+                                            <TypeConstraintAst TypeName="CHAr" />
+                                            <ConstantExpressionAst StaticType="int">69</ConstantExpressionAst>
+                                            <TypeConstraintAst TypeName="CHAr" />
+                                          </ConvertExpressionAst>
+                                          <ConvertExpressionAst StaticType="char">
+                                            <TypeConstraintAst TypeName="CHAr" />
+                                            <ConstantExpressionAst StaticType="int">54</ConstantExpressionAst>
+                                            <TypeConstraintAst TypeName="CHAr" />
+                                          </ConvertExpressionAst>
+                                        </BinaryExpressionAst>
+                                        <ConvertExpressionAst StaticType="char">
+                                          <TypeConstraintAst TypeName="CHAr" />
+                                          <ConstantExpressionAst StaticType="int">122</ConstantExpressionAst>
+                                          <TypeConstraintAst TypeName="CHAr" />
+                                        </ConvertExpressionAst>
+                                      </BinaryExpressionAst>
+                                      <Redirections />
+                                    </CommandExpressionAst>
+                                  </PipelineElements>
+                                </PipelineAst>
+                              </ParenExpressionAst>
+                              <ConvertExpressionAst StaticType="char">
+                                <TypeConstraintAst TypeName="CHAr" />
+                                <ConstantExpressionAst StaticType="int">39</ConstantExpressionAst>
+                                <TypeConstraintAst TypeName="CHAr" />
+                              </ConvertExpressionAst>
+                            </Elements>
+                          </ArrayLiteralAst>
+                        </BinaryExpressionAst>
+                        <ArrayLiteralAst StaticType="System.Object[]">
+                          <Elements>
+                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">eJA</StringConstantExpressionAst>
+                            <ConvertExpressionAst StaticType="char">
+                              <TypeConstraintAst TypeName="CHAr" />
+                              <ConstantExpressionAst StaticType="int">124</ConstantExpressionAst>
+                              <TypeConstraintAst TypeName="CHAr" />
+                            </ConvertExpressionAst>
+                          </Elements>
+                        </ArrayLiteralAst>
+                      </BinaryExpressionAst>
+                      <ArrayLiteralAst StaticType="System.Object[]">
+                        <Elements>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">Wsg</StringConstantExpressionAst>
+                          <ConvertExpressionAst StaticType="char">
+                            <TypeConstraintAst TypeName="CHAr" />
+                            <ConstantExpressionAst StaticType="int">92</ConstantExpressionAst>
+                            <TypeConstraintAst TypeName="CHAr" />
+                          </ConvertExpressionAst>
+                        </Elements>
+                      </ArrayLiteralAst>
+                    </BinaryExpressionAst>
                     <Redirections />
-                  </CommandAst>
+                  </CommandExpressionAst>
                 </PipelineElements>
               </PipelineAst>
             </ParenExpressionAst>
@@ -131,15 +275,15 @@
                       <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
                         <BinaryExpressionAst Operator="Plus" StaticType="System.Object">
                           <IndexExpressionAst StaticType="System.Object">
-                            <VariableExpressionAst VariablePath="sHELLiD" StaticType="System.Object" />
+                            <VariableExpressionAst VariablePath="SHelLid" StaticType="System.Object" />
                             <ConstantExpressionAst StaticType="int">1</ConstantExpressionAst>
                           </IndexExpressionAst>
                           <IndexExpressionAst StaticType="System.Object">
-                            <VariableExpressionAst VariablePath="sHeLliD" StaticType="System.Object" />
+                            <VariableExpressionAst VariablePath="shelLid" StaticType="System.Object" />
                             <ConstantExpressionAst StaticType="int">13</ConstantExpressionAst>
                           </IndexExpressionAst>
                         </BinaryExpressionAst>
-                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">X</StringConstantExpressionAst>
+                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">x</StringConstantExpressionAst>
                       </BinaryExpressionAst>
                       <Redirections />
                     </CommandExpressionAst>

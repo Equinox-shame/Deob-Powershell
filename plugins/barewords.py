@@ -72,6 +72,7 @@ BAREWORDS = {
     "tobase64string": "ToBase64String",
     "getenvironmentvariable": "GetEnvironmentVariable",
     "replace": "Replace",
+    "creplace": "CReplace",
     "split": "Split",
     "system": "System",
     "io": "IO",
@@ -113,5 +114,9 @@ BAREWORDS = {
     "structureto": "StructureTo",
     "intptr": "IntPtr",
     "securestring": "SecureString",
-    "securestringtobstr": "SecureStringToBStr"
+    "securestringtobstr": "SecureStringToBStr",
+    "out": "Out",
+    "ptrtostructure": "PtrToStructure",
+    "structureto": "StructureTo",
+    "null": "Null",
 }

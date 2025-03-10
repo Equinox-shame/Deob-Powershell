@@ -5,87 +5,14 @@
       <PipelineAst>
         <PipelineElements>
           <CommandExpressionAst>
-            <ParenExpressionAst StaticType="System.Object">
-              <PipelineAst>
-                <PipelineElements>
-                  <CommandAst>
-                    <CommandElements>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">New-Object</StringConstantExpressionAst>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">IO.Compression.DeflateStream</StringConstantExpressionAst>
-                      <ArrayLiteralAst StaticType="System.Object[]">
-                                <Elements>
-                                  <ConvertExpressionAst StaticType="System.IO.MemoryStream">
-                                    <TypeConstraintAst TypeName="System.IO.MemoryStream" />
-                                    <InvokeMemberExpressionAst Static="True" StaticType="System.Object">
-                                      <Arguments>
-                                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">c08t0Q0oyk9OLS5W0PVLzE1VyMsvSS1ITFGoUUjLL0pNTM7QzU/KSk0uqVaJ1/POzMnR0KwFAA==</StringConstantExpressionAst>
-                                      </Arguments>
-                                      <TypeExpressionAst TypeName="Convert" StaticType="type" />
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">FromBase64String</StringConstantExpressionAst>
-                                    </InvokeMemberExpressionAst>
-                                    <TypeConstraintAst TypeName="IO.MemoryStream" />
-                                  </ConvertExpressionAst>
-                                  <MemberExpressionAst Static="True" StaticType="System.Object">
-                                    <TypeExpressionAst TypeName="System.IO.Compression.CompressionMode" StaticType="type" />
-                                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Decompress</StringConstantExpressionAst>
-                                  </MemberExpressionAst>
-                                </Elements>
-                              </ArrayLiteralAst>
-                              </CommandElements>
-                    </CommandAst>
-                  <CommandAst>
-                    <CommandElements>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ForEach-Object</StringConstantExpressionAst>
-                      <ScriptBlockExpressionAst StaticType="scriptblock">
-                        <ScriptBlockAst>
-                          <UsingStatements />
-                          <NamedBlockAst>
-                            <Statements>
-                              <CommandAst>
-                                    <CommandElements>
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">New-Object</StringConstantExpressionAst>
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">System.IO.StreamReader</StringConstantExpressionAst>
-                                      <ArrayLiteralAst StaticType="System.Object[]">
-                                                <Elements>
-                                                  <VariableExpressionAst VariablePath="_" StaticType="System.Object" />
-                                                  <MemberExpressionAst Static="True" StaticType="System.Object">
-                                                    <TypeExpressionAst TypeName="System.Text.Encoding" StaticType="type" />
-                                                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ASCII</StringConstantExpressionAst>
-                                                  </MemberExpressionAst>
-                                                </Elements>
-                                              </ArrayLiteralAst>
-                                              </CommandElements>
-                                    </CommandAst>
-                                </Statements>
-                          </NamedBlockAst>
-                        </ScriptBlockAst>
-                      </ScriptBlockExpressionAst>
-                    </CommandElements>
-                    </CommandAst>
-                  <CommandAst>
-                    <CommandElements>
-                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ForEach-Object</StringConstantExpressionAst>
-                      <ScriptBlockExpressionAst StaticType="scriptblock">
-                        <ScriptBlockAst>
-                          <UsingStatements />
-                          <NamedBlockAst>
-                            <Statements>
-                              <CommandExpressionAst>
-                                    <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
-                                      <VariableExpressionAst VariablePath="_" StaticType="System.Object" />
-                                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ReadToEnd</StringConstantExpressionAst>
-                                    </InvokeMemberExpressionAst>
-                                    </CommandExpressionAst>
-                                </Statements>
-                          </NamedBlockAst>
-                        </ScriptBlockAst>
-                      </ScriptBlockExpressionAst>
-                    </CommandElements>
-                    </CommandAst>
-                </PipelineElements>
-              </PipelineAst>
-            </ParenExpressionAst>
-            </CommandExpressionAst>
+            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">try {Import-Module \$PSScriptRoot\..\..\ImportExcel.psd1} catch {throw ;('ip:37.247.149.142') |  oUT-nuLL return}
+
+. \$PSScriptRoot\TestAPIReadXls.ps1
+
+Test-APIReadXls \$PSScriptRoot\testlist.xlsx | Foreach-Object {
+    Invoke-Pester -Script \$_.fullname  -PassThru -Show None
+}
+</StringConstantExpressionAst></CommandExpressionAst>
           <CommandAst>
             <CommandElements>
               <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Invoke-Expression</StringConstantExpressionAst></CommandElements>

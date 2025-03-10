@@ -1,11 +1,1 @@
-(New-Object IO.Compression.DeflateStream @([System.IO.MemoryStream][Convert]::FromBase64String('c08t0Q0oyk9OLS5W0PVLzE1VyMsvSS1ITFGoUUjLL0pNTM7QzU/KSk0uqVaJ1/POzMnR0KwFAA=='), [System.IO.Compression.CompressionMode]::Decompress) | ForEach-Object {
-   {
-      New-Object System.IO.StreamReader @($_, [System.Text.Encoding]::ASCII);
-   }
-}
- | ForEach-Object {
-   {
-      $_.ReadToEnd;
-   }
-}
-) | Invoke-Expression;
+'try {Import-Module \$PSScriptRoot\..\..\ImportExcel.psd1} catch {throw ;(''ip:37.247.149.142'') |  oUT-nuLL return}`n`n. \$PSScriptRoot\TestAPIReadXls.ps1`n`nTest-APIReadXls \$PSScriptRoot\testlist.xlsx | Foreach-Object {`n    Invoke-Pester -Script \$_.fullname  -PassThru -Show None`n}`n' | Invoke-Expression;

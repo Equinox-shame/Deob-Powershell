@@ -54,7 +54,7 @@ def opt_variable_expression_replace(ast):
                         variable_node is not None and
                         variable_node.attrib.get("VariablePath") and
                         replace_node is not None and
-                        replace_node.text == "Replace"):
+                        replace_node.text == "Replace" ):
                     variable_path = variable_node.attrib.get("VariablePath")
                     variable_value = find_variable_value(ast, variable_path)  # 目标替换节点
 

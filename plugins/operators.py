@@ -28,6 +28,10 @@ OPS = {
     "Or": " -or ",
     "DotDot": "..",
     "Ilike": " -like ",
+    "Creplace": " -creplace ",
+    "Cmatch": " -cmatch ",
+    "Cnotmatch": " -cnotmatch ",
+    "Csplit": " -csplit ",
 }
 
 

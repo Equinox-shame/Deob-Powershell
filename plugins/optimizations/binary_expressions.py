@@ -1,4 +1,5 @@
 # coding=utf-8
+import re
 from xml.etree.ElementTree import Element
 
 from plugins.logger import log_debug, log_err
@@ -109,8 +110,9 @@ def opt_binary_expression_numeric_operators(ast):
 # 优化替换操作符二元表达式函数
 def opt_binary_expression_replace(ast):
     for node in ast.iter():
-        if node.tag in ["BinaryExpressionAst"] and node.attrib["Operator"] == "Ireplace":
+        if node.tag in ["BinaryExpressionAst"] and (node.attrib["Operator"] == "Ireplace" or node.attrib["Operator"] == "Creplace") : # fix: 添加 Creplace 替换操作符支持
             target = node.find("StringConstantExpressionAst")
+            replace_type = node.attrib["Operator"]
             if target is not None:
                 target = target.text
             else:
@@ -120,8 +122,11 @@ def opt_binary_expression_replace(ast):
 
             if argument_values is None or len(argument_values) != 2:
                 return False
-
-            formatted = target.replace(argument_values[0], argument_values[1])
+            
+            if replace_type == "Ireplace":
+                formatted = re.sub(re.escape(argument_values[0]), re.escape(argument_values[1]), target, flags=re.IGNORECASE) # fix: 忽略大小写
+            elif replace_type == "Creplace":
+                formatted = target.replace(argument_values[0], argument_values[1])
 
             log_debug("Apply replace operator to '%s'" % formatted)
 
