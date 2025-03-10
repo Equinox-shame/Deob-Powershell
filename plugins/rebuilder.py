@@ -607,8 +607,8 @@ class Rebuilder:
                 """
                 bug: 可能会存在些许问题
                 """
-                # self.write('(')
-                # self.write(')')
+                self.write('(')
+                self.write(')')
 
         elif node.tag in ["DoWhileStatementAst"]:
             subnodes = list(node)
