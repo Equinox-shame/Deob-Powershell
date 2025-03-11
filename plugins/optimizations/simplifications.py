@@ -18,12 +18,13 @@ def opt_command_element_as_bareword(ast):
     """
     def process_subnode(subnode):
         if subnode.tag == "StringConstantExpressionAst" and subnode.attrib["StringConstantType"] != "BareWord": # 修复关键字为 string 类型混淆
-            parts = subnode.text.split('.')
-
-            if all(part.lower() in BAREWORDS for part in parts):
-                subnode.attrib["StringConstantType"] = "BareWord"
-                log_debug(f"Fix string type for command {subnode.text}")
-                return True
+            if str(subnode.text).find(".") != -1: # 修复不含 . 的关键字
+                parts = subnode.text.split('.')
+                if all(part.lower() in BAREWORDS for part in parts):
+                    subnode.attrib["StringConstantType"] = "BareWord"
+                    log_debug(f"Fix string type for command {subnode.text}")
+                    return True
+                
         elif subnode.tag == "ParenExpressionAst": 
             for nested_node in subnode:
                 if process_subnode(nested_node):
