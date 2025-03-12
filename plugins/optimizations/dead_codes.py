@@ -47,10 +47,13 @@ def opt_remove_uninitialised_variable_usage(ast):
                 var_source = subnodes[1][0].attrib["VariablePath"].lower()
                 if var_source not in assigned:
                     if not is_prefixed_var(var_source) and var_source != "_":
-                        var_dest = subnodes[0].attrib["VariablePath"].lower()
-                        log_debug(f"Remove variable '{var_dest}' assigned from unassigned variable '{var_source}'")
-                        kill_list.append(node)
-                        continue
+                        try:
+                            var_dest = subnodes[0].attrib["VariablePath"].lower()
+                            log_debug(f"Remove variable '{var_dest}' assigned from unassigned variable '{var_source}'")
+                            kill_list.append(node)
+                            continue
+                        except KeyError:
+                            pass
 
             if subnodes[0].tag == "VariableExpressionAst":
                 assigned.add(subnodes[0].attrib["VariablePath"].lower())
